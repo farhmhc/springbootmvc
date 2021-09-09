@@ -36,6 +36,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 //		super.configure(web);
 		web.ignoring().antMatchers("/img/**");
 		web.ignoring().antMatchers("/lib/**");
+		web.ignoring().antMatchers("/h2-console/**");
 	}
 
 	@Override
@@ -59,27 +60,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 			.logout()
 			.logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
 			.logoutSuccessUrl("/")
-			.invalidateHttpSession(true);	//Session 무효화
-	
-//		http.authorizeRequests()			
-//			.antMatchers("/main").authenticated()
-//			.anyRequest().permitAll();
-//			
-//		http.csrf().disable();
-//		
-//		http.formLogin()
-//			.loginPage("/login")
-//			.loginProcessingUrl("/login/confirm")
-//			//.failureUrl("/login?result=fail")
-//			.failureUrl("/login")
-//			//.failureForwardUrl("/login") //org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
-//			.defaultSuccessUrl("/main", true)
-//			.usernameParameter("username")
-//			.passwordParameter("password");
-//		
-//		http.logout()
-//			.logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
-//			.logoutSuccessUrl("/")
-//			.invalidateHttpSession(true);	//Session 무효화			
+			.invalidateHttpSession(true);	//Session 무효화			
 	}
 }
