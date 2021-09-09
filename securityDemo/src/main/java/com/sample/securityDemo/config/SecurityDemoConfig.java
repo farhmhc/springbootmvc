@@ -5,7 +5,6 @@ import javax.sql.DataSource;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.SqlSessionTemplate;
-import org.mybatis.spring.boot.autoconfigure.SpringBootVFS;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -38,14 +37,13 @@ public class SecurityDemoConfig {
 		
 		//Map CamelCase
 		//sqlSessionFactoryBean.setVfs(SpringBootVFS.class);
-		sqlSessionFactoryBean.setTypeAliasesPackage("com.sample.securityDemo.util");		
+		sqlSessionFactoryBean.setTypeAliasesPackage("com.sample.securityDemo.util");
 		
 		return sqlSessionFactoryBean.getObject();
 	}
 	
 	@Bean
-	public SqlSessionTemplate sqlSessionTemplate(SqlSessionFactory sqlSessionFactory) throws Exception {
-		
+	public SqlSessionTemplate sqlSessionTemplate(SqlSessionFactory sqlSessionFactory) throws Exception {		
 		//DTO, VO CamelCase
 		sqlSessionFactory.getConfiguration().setMapUnderscoreToCamelCase(true);
 
