@@ -1,6 +1,7 @@
 package com.sample.securityDemo.dao;
 
 import java.util.List;
+import java.util.Map;
 
 import org.mybatis.spring.SqlSessionTemplate;
 import org.slf4j.Logger;
@@ -18,4 +19,8 @@ public class SecurityDemoDAO {
 	public List<Object> getH2Catalog() {
 		return sqlSession.selectList("H2DataBase.getCatalog");
 	}
+	
+	public List<Object> getH2NationName(Map<String, Object> paramMap) {
+		return sqlSession.selectList("H2DataBase.getNationName", paramMap);
+	}	
 }

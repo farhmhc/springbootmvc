@@ -9,4 +9,11 @@
 		SELECT *
 		  FROM INFORMATION_SCHEMA.CATALOGS 	
 	</select>
+	
+	<select id="getNationName" parameterType="map" resultType="camelcasemap">
+		SELECT *
+		   FROM INFORMATION_SCHEMA.COLLATIONS
+		 WHERE 1 = 1
+	      AND NAME LIKE #{nationPrefix} || '%'	
+	</select>
 </mapper>

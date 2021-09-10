@@ -1,6 +1,7 @@
 package com.sample.securityDemo.service;
 
 import java.util.List;
+import java.util.Map;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,4 +20,8 @@ public class SecurityDemoServiceImpl {
 	public List<Object> getH2Catalog() {
 		return securityDemoDAO.getH2Catalog();
 	}
+	
+	public List<Object> getH2NationName(Map<String, Object> paramMap) {
+		return securityDemoDAO.getH2NationName(paramMap);
+	}	
 }
