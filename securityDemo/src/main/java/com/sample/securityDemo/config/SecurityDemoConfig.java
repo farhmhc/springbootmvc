@@ -45,7 +45,7 @@ public class SecurityDemoConfig {
 	@Bean
 	public SqlSessionTemplate sqlSessionTemplate(SqlSessionFactory sqlSessionFactory) throws Exception {		
 		//DTO, VO CamelCase
-		sqlSessionFactory.getConfiguration().setMapUnderscoreToCamelCase(true);
+		//sqlSessionFactory.getConfiguration().setMapUnderscoreToCamelCase(true);
 
 		return new SqlSessionTemplate(sqlSessionFactory);	
 	}
