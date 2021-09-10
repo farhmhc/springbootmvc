@@ -45,5 +45,10 @@ public class BootStrapDemoController {
 	@GetMapping("/cover")
 	public String getCover(Model model) {
 		return "/bootstrap/cover/bootstrap_cover";
+	}
+	
+	@GetMapping("/dashboard")
+	public String getDashboard(Model model) {
+		return "/bootstrap/dashboard/bootstrap_dashboard";
 	}	
 }

@@ -29,6 +29,9 @@
 		<ul>
 			<li><a href="/bootstrap/cover">cover</a></li>
 		</ul>
+		<ul>
+			<li><a href="/bootstrap/dashboard">dashboard</a></li>
+		</ul>		
 	</div>
 </body>
 </html>
