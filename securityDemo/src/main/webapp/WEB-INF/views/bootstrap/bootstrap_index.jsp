@@ -27,7 +27,7 @@
 			<li><a href="/bootstrap/checkout">checkout</a></li>
 		</ul>
 		<ul>
-			<li><a href="#">---</a></li>
+			<li><a href="/bootstrap/cover">cover</a></li>
 		</ul>
 	</div>
 </body>

@@ -40,5 +40,10 @@ public class BootStrapDemoController {
 	@GetMapping("/checkout")
 	public String getCheckout(Model model) {
 		return "/bootstrap/checkout/bootstrap_checkout";
+	}
+	
+	@GetMapping("/cover")
+	public String getCover(Model model) {
+		return "/bootstrap/cover/bootstrap_cover";
 	}	
 }
