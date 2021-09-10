@@ -50,7 +50,7 @@ public class SecurityDemoController {
 	
 	@GetMapping("/jqueryUi")
 	public String viewJqueryUiSample(Model model) {
-		return "jqueryUiSample";
+		return "/jqueryUi/jqueryUiSample";
 	}
 	
 	@PostMapping("/getH2Catalog")
