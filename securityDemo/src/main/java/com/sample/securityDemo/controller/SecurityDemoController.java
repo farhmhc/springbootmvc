@@ -47,6 +47,12 @@ public class SecurityDemoController {
 		return "logout";
 	}
 	
+	
+	@GetMapping("/jqueryUi")
+	public String viewJqueryUiSample(Model model) {
+		return "jqueryUiSample";
+	}
+	
 	@PostMapping("/getH2Catalog")
 	@ResponseBody
 	public List<Object> getH2Catalog() {
