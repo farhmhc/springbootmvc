@@ -59,6 +59,45 @@
 		<ul>
 			<li><a href="/bootstrap/modals">modals</a></li>
 		</ul>
+		<ul>
+			<li><a href="/bootstrap/navbar-bottom">navbar-bottom</a></li>
+		</ul>
+		<ul>
+			<li><a href="/bootstrap/navbar-fixed">navbar-fixed</a></li>
+		</ul>
+		<ul>
+			<li><a href="/bootstrap/navbars">navbars</a></li>
+		</ul>						
+		<ul>
+			<li><a href="/bootstrap/navbar-static">navbar-static</a></li>
+		</ul>
+		<ul>
+			<li><a href="/bootstrap/offcanvas">offcanvas</a></li>
+		</ul>
+		<ul>
+			<li><a href="/bootstrap/offcanvas-navbar">offcanvas-navbar</a></li>
+		</ul>
+		<ul>
+			<li><a href="/bootstrap/pricing">pricing</a></li>
+		</ul>
+		<ul>
+			<li><a href="/bootstrap/product">product</a></li>
+		</ul>
+		<ul>
+			<li><a href="/bootstrap/sidebars">sidebars</a></li>
+		</ul>
+		<ul>
+			<li><a href="/bootstrap/sign-in">sign-in</a></li>
+		</ul>
+		<ul>
+			<li><a href="/bootstrap/starter-template">starter-template</a></li>
+		</ul>
+		<ul>
+			<li><a href="/bootstrap/sticky-footer">sticky-footer</a></li>
+		</ul>
+		<ul>
+			<li><a href="/bootstrap/sticky-footer-navbar">sticky-footer-navbar</a></li>
+		</ul>									
 	</div>
 </body>
 </html>

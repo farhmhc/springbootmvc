@@ -89,6 +89,71 @@ public class BootStrapDemoController {
 	
 	@GetMapping("/modals")
 	public String getModals(Model model) {
-		return "/bootstrap/modals/bootstap_modals";
+		return "/bootstrap/modals/bootstrap_modals";
+	}
+	
+	@GetMapping("/navbar-bottom")
+	public String getNavbarBottom(Model model) {
+		return "/bootstrap/navbar-bottom/bootstrap_navbar-bottom";
+	}
+	
+	@GetMapping("/navbar-fixed")
+	public String getNavbarFixed(Model model) {
+		return "/bootstrap/navbar-fixed/bootstrap_navbar-fixed";
+	}
+	
+	@GetMapping("/navbars")
+	public String getNavbars(Model model) {
+		return "/bootstrap/navbars/bootstrap_navbars";
+	}
+	
+	@GetMapping("/navbar-static")
+	public String getNavbarStatic(Model model) {
+		return "/bootstrap/navbar-static/bootstrap_navbar-static";
+	}
+	
+	@GetMapping("/offcanvas")
+	public String getOffcanvas(Model model) {
+		return "/bootstrap/offcanvas/bootstrap_offcanvas";
+	}
+	
+	@GetMapping("/offcanvas-navbar")
+	public String getOffcanvasNavbar(Model model) {
+		return "/bootstrap/offcanvas-navbar/bootstrap_offcanvas-navbar";
+	}
+	
+	@GetMapping("/pricing")
+	public String getPricing(Model model) {
+		return "/bootstrap/pricing/bootstrap_pricing";
+	}
+	
+	@GetMapping("/product")
+	public String getProduct(Model model) {
+		return "/bootstrap/product/bootstrap_product";
+	}
+	
+	@GetMapping("/sidebars")
+	public String getSidebars(Model model) {
+		return "/bootstrap/sidebars/bootstrap_sidebars";
+	}
+	
+	@GetMapping("/sign-in")
+	public String getSignIn(Model model) {
+		return "/bootstrap/sign-in/bootstrap_signin";
+	}
+	
+	@GetMapping("/starter-template")
+	public String getStarterTemplate(Model model) {
+		return "/bootstrap/starter-template/bootstrap_starter-template";
+	}
+	
+	@GetMapping("/sticky-footer")
+	public String getStickyFooter(Model model) {
+		return "/bootstrap/sticky-footer/bootstrap_sticky-footer";
+	}
+	
+	@GetMapping("/sticky-footer-navbar")
+	public String getStickyFooterNavbar(Model model) {
+		return "/bootstrap/sticky-footer-navbar/bootstrap_sticky-footer-navbar";
 	}	
 }
