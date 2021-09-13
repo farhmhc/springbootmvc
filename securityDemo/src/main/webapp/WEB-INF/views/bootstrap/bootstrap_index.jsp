@@ -29,6 +29,36 @@
 		<ul>
 			<li><a href="#">---</a></li>
 		</ul>
+		<ul>
+			<li><a href="/bootstrap/dropdowns">dropdowns</a></li>
+		</ul>
+		<ul>
+			<li><a href="/bootstrap/freatures">freatures</a></li>
+		</ul>
+		<ul>
+			<li><a href="/bootstrap/footers">footers</a></li>
+		</ul>		
+		<ul>
+			<li><a href="/bootstrap/grid">grid</a></li>
+		</ul>
+		<ul>
+			<li><a href="/bootstrap/headers">headers</a></li>
+		</ul>
+		<ul>
+			<li><a href="/bootstrap/heroes">heroes</a></li>
+		</ul>
+		<ul>
+			<li><a href="/bootstrap/jumbotron">jumbotron</a></li>
+		</ul>
+		<ul>
+			<li><a href="/bootstrap/list-groups">list-groups</a></li>
+		</ul>
+		<ul>
+			<li><a href="/bootstrap/masonry">masonry</a></li>
+		</ul>
+		<ul>
+			<li><a href="/bootstrap/modals">modals</a></li>
+		</ul>
 	</div>
 </body>
 </html>
