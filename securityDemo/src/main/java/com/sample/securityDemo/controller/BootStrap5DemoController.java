@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/bootstrap5")
-public class BootStrapDemoController {
+public class BootStrap5DemoController {
 	private final Logger logger = LoggerFactory.getLogger(getClass());
 
 	@GetMapping("/index")
