@@ -38,8 +38,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 		web.ignoring().antMatchers("/lib/**");
 		web.ignoring().antMatchers("/h2-console/**");
 		web.ignoring().antMatchers("/jqueryUi/**");
-		web.ignoring().antMatchers("/bootstrap/**");
-		web.ignoring().antMatchers("/bootstrap_html/**");
+		web.ignoring().antMatchers("/bootstrap/**");		
 	}
 
 	@Override
