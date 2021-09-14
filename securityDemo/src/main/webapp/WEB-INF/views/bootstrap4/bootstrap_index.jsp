@@ -42,9 +42,8 @@
 			</div>
 		</header>
 		
-		<main>
-			<div class="container-fluid border border-primary pt-5 mt-5">==========================</div>
-			<div class="container-fluid border border-secondary">
+		<main>			
+			<div class="container-fluid border border-secondary"  style="margin-top:60px;">
 				<div class="row">
 					<div class="col-lg border border-dark"><h1>1</h1></div>
 					<div class="col-lg border border-dark"><h1>2</h1></div>
