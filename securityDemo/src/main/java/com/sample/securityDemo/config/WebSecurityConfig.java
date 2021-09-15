@@ -40,6 +40,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 		web.ignoring().antMatchers("/jqueryUi/**");
 		web.ignoring().antMatchers("/bootstrap5/**");
 		web.ignoring().antMatchers("/bootstrap4/**");
+		web.ignoring().antMatchers("/quantmatrix/**");
 	}
 
 	@Override
